@@ -1,1 +1,13 @@
 <h1>Contact Page</h1>
+
+<form class="form-horizontal">
+      {{input type="email" value=emailAddress class="form-control" placeholder="Email address: " autofocus="autofocus"}}
+      {{textarea class="form-control" placeholder="Your message. (At least 5 characters.)" rows="7" value=message}}
+    	<button class="btn btn-primary btn-lg btn-block" disabled={{isDisabled}} {{action "sendMessage"}}>Send Message</button>
+
+    	{{#if responseMessage}}
+		  	<div class="alert alert-success">
+		  		{{responseMessage}}
+		  	</div>
+		  {{/if}}
+</form>
