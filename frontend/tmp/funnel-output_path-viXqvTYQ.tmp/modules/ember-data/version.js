@@ -1,0 +1,1 @@
+/home/barnabas/projects/library-app/tmp/creator-output_path-3gRv0zSm.tmp/version.js

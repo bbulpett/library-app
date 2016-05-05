@@ -1,0 +1,1 @@
+/home/barnabas/projects/library-app/tmp/funnel-input_base_path-ouyXsDjv.tmp/0/bower_components/ember-cli-test-loader/test-loader.js
